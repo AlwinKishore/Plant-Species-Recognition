@@ -1,0 +1,15 @@
+The project "Plant species recognition using CNN in deep learning" aims to develop a 
+deep learning-based model for accurately identifying and classifying plant species. The use of 
+Convolutional Neural Networks (CNN) is employed in this project due to their effectiveness 
+in handling image-based data. The model will be trained on a dataset of plant leaf images, 
+which will be sourced from various datasets. Pre-processing techniques such as resizing, 
+random horizontal flips, convert to tensor and normalization will be applied to each image in 
+the dataset to improve the model's accuracy and robustness.
+The proposed model will utilize transfer learning, where a pre-trained CNN model will 
+be fine-tuned to classify plant species. This approach is expected to improve the model's 
+accuracy, reduce the training time, and mitigate overfitting. The effectiveness of the model will 
+be evaluated using various performance metrics, including train and test accuracy. 
+The project's outcome will be a highly accurate and efficient plant species recognition 
+model that can be deployed in various applications, including plant conservation and 
+agriculture. The successful development of this model will advance the field of plant 
+recognition and contribute to the sustainable management of plant resources.
