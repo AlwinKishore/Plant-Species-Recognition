@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% load static %}
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1>Find the Plan Species</h1>
+    <form action="predictImage" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="file-input">Select an image:</label><br>
+        <input type="file" name="filePath" id="filePath"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <img src="{{filePathName}}" alt="img" /><br>
+    <!-- {{filePathName}}  -->
+    {{ predicted }}
+
+    <br>
+    <a href="/">Back</a>
+</body>
+
+</html>
